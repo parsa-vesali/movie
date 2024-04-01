@@ -36,7 +36,6 @@ nav {
     margin-right: 200px;
 }
 
-.navbar-brand {}
 
 .navbar-nav {
     display: flex;
@@ -226,11 +225,7 @@ nav {
     background: var(--oxford-blue);
 }
 
-.filter-dropdowns {}
 
-.ganre {}
-
-.year {}
 
 .filter-radios {
     position: relative;
@@ -284,7 +279,7 @@ input~.checked-radio-bg {
 
 .movies-gride {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     gap: 30px;
     margin-bottom: 60px;
 }
@@ -305,8 +300,6 @@ input~.checked-radio-bg {
 .movie-card:hover .card-img {
     transform: scale(1.1);
 }
-
-.card-img {}
 
 .card-overlay {
     position: absolute;
@@ -374,8 +367,6 @@ input~.checked-radio-bg {
     --scale: 1;
 }
 
-.card-body {}
-
 .card-title {
     font-size: var(--fs-md);
     font-weight: var(--fw-5);
@@ -396,4 +387,17 @@ input~.checked-radio-bg {
     margin-right: 8px;
 }
 
-.year {}
+.load-more {
+    background: var(--oxford-blue);
+    display: block;
+    padding: 20px 50px;
+    margin: auto;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-5);
+    border-radius: 15px;
+    color: var(--white);
+}
+
+.load-more:hover {
+    background-color: var(--light-azure);
+}
