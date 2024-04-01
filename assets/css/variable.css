@@ -13,10 +13,13 @@
     --light-azure: hsl(214, 84%, 56%);
     --off-white: hsl(0, 0%, 88%);
     --white: hsl(0, 0%, 100%);
+    --azure: hsl(211, 100%, 58%);
     --ff-inter: 'Inter';
 
     --fs-sm: 14px;
 
+    --fw-7: 700;
+    --fw-6: 600;
     --fw-5: 500;
     --px: 120px;
 }

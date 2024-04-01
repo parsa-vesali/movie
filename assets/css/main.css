@@ -9,6 +9,10 @@ nav {
     background-color: var(--rich-black-fogra-29);
 }
 
+.navbar,
+.banner {
+    padding: 0 var(--px);
+}
 
 
 .container {
@@ -17,7 +21,6 @@ nav {
 }
 
 .navbar {
-    padding: 0 var(--px);
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -129,4 +132,68 @@ nav {
 
 .navbar-signin:hover span {
     color: var(--light-azure);
+}
+
+
+/* BANNER */
+.banner {
+    margin-bottom: 60px;
+}
+
+.banner-card {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.banner-img {
+    object-position: top;
+}
+
+.banner-card:hover .banner-img {
+    transform: scale(1.1);
+}
+
+.card-content {
+    position: absolute;
+    right: 80px;
+    bottom: 60px;
+    left: 80px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-info div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.card-info ion-icon {
+    font-size: 20px;
+    color: var(--azure);
+    margin-right: 5px;
+}
+
+.card-info span {
+    font-weight: var(--fw-6);
+}
+
+.quality {
+    background: var(--azure);
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: var(--fw-7);
+}
+
+.card-title {
+    font-size: 3em;
+    color: var(--white);
+    text-shadow: 2px 0 2px #0007;
 }
