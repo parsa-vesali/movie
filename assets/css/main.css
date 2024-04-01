@@ -11,10 +11,17 @@ nav {
 
 .navbar,
 .banner,
-.movies {
+.movies,
+.category {
     padding: 0 var(--px);
 }
 
+
+.section-heading {
+    font-size: var(--section-heading);
+    font-weight: var(--fw-5);
+    margin-bottom: 60px;
+}
 
 .container {
     max-width: 1440px;
@@ -400,4 +407,63 @@ input~.checked-radio-bg {
 
 .load-more:hover {
     background-color: var(--light-azure);
+}
+
+/* CATEGORY SECTION */
+.category {
+    margin-bottom: 60px;
+}
+
+.section-heading {}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.category-card {
+    position: relative;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.category-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 20%, #000a);
+}
+
+.category-card:hover .card-img {
+    transform: scale(1.1);
+}
+
+.card-img {}
+
+.name,
+.total {
+    position: absolute;
+    bottom: 20px;
+    color: var(--white);
+    z-index: 20;
+}
+
+.name {
+    left: 20px;
+    font-size: 20px;
+}
+
+.total {
+    right: 20px;
+    font-size: 18px;
+    background-color: var(--oxford-blue-50);
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.category-card:hover .name {
+    color: var(--light-azure);
 }
