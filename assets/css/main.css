@@ -278,3 +278,122 @@ input~.checked-radio-bg {
     --width: 81px;
     --left: 163px;
 }
+
+
+/* MOVIE GRADE */
+
+.movies-gride {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.movie-card {
+    --scale: 0.8;
+    cursor: pointer;
+}
+
+.card-head {
+    position: relative;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.movie-card:hover .card-img {
+    transform: scale(1.1);
+}
+
+.card-img {}
+
+.card-overlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    backdrop-filter: blur(5px);
+}
+
+.movie-card:hover .card-overlay {
+    opacity: 1;
+}
+
+.bookmark,
+.rating {
+    position: absolute;
+    top: 15px;
+    padding: 6px;
+    border-radius: 10px;
+    color: var(--light-azure);
+    transform: scale(var(--scale));
+}
+
+.bookmark {
+    background: var(--oxford-blue);
+    left: 15px;
+}
+
+.bookmark:hover {
+    color: var(--yellow);
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    right: 15px;
+    background-color: var(--oxford-blue-50);
+}
+
+.rating span {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: var(--fw-5);
+    margin-left: 5px;
+}
+
+.movie-card ion-icon {
+    font-size: 16px;
+    display: block;
+    --ionicon-stroke-width: 50px;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(var(--scale));
+}
+
+.play ion-icon {
+    font-size: 68px;
+    --ionicon-stroke-width: 20px;
+}
+
+.movie-card:hover :is(.bookmark, .rating, .play) {
+    --scale: 1;
+}
+
+.card-body {}
+
+.card-title {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-5);
+    margin-bottom: 5px;
+}
+
+.movie-card:hover .card-title {
+    color: var(--light-azure);
+}
+
+.card-info {
+    display: flex;
+    font-size: var(--fs-x-sm);
+    font-weight: var(--fw-5);
+}
+
+.ganre {
+    margin-right: 8px;
+}
+
+.year {}
