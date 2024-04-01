@@ -4,11 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CineFlix</title>
+    <!-- 
+        CUSTOM CSS LINK
+     -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/media_query.css">
 </head>
 
 <body>
 
+
+
+    <!-- MAIN CONTAIENR -->
+    <div class="container">
+        <!-- HEADER SECTION -->
+        <header>
+            <div class="navbar">
+                <button class="navbar-menu-btn">
+                    <span></span><span></span><span></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <img src="./assets/images/logo.png" alt="">
+                </a>
+
+                <!-- NAVIGATION -->
+                <nav>
+                    <ul class="navbar-nav">
+                        <li><a href="#" class="navbar-link">Home</a></li>
+                        <li><a href="#category" class="navbar-link">Category</a></li>
+                        <li><a href="#live" class="navbar-link indicator">LIVE</a></li>
+                    </ul>
+                </nav>
+
+                <!-- SEARCH AND SIGN IN -->
+
+                <div class="navbar-actions">
+                    <form action="#" class="navbar-form">
+                        <input type="text" name="search" placeholder="im looking for..." class="navbar-form-search">
+                        <button class="navbar-form-btn">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+                        <button class="navbar-form-close">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </button>
+                    </form>
+
+
+
+                    <!-- SEARCh BTN FOR SMALL SCREEN -->
+                    <button class="navbar-search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                    <a href="#" class="navbar-signin">
+                        <span>sign in</span>
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+    <!--
+        CUSTOM JS LINK
+      -->
+    <script src="./assets/js/main.js"></script>
+    <!-- 
+        ICONS
+       -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

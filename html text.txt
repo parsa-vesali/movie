@@ -1,0 +1,279 @@
+
+Header section text
+==================
+Home
+Category
+LIVE
+Sign in
+
+
+Banner section text
+===================
+<ion-icon name="film"></ion-icon>
+Action/Thriller
+
+<ion-icon name="calendar"></ion-icon>
+2019
+
+<ion-icon name="time"></ion-icon>
+2h 11m
+
+4K
+
+John Wick: Chapter 3 - Parabellum
+
+
+Movies section text
+===================
+
+filter bar
+---------
+All genres
+Action
+Adventure
+Animal
+Animation
+Biography
+
+All the years
+2022
+2020-2021
+2010-2019
+2000-2009
+1980-1999
+
+Featured
+Popular
+Newest
+
+
+All Movie card text
+===================
+
+card-overlay icon
+----------------
+<ion-icon name="bookmark-outline"></ion-icon>
+<ion-icon name="star-outline"></ion-icon>
+<ion-icon name="play-circle-outline"></ion-icon>
+
+
+Red notice
+-----------
+6.4
+Red Notice
+Action/Comedy
+2021
+
+Spider man
+-----------
+7.4
+Spider-Man: Homecoming
+Action/Adventure
+2017
+
+Matrix
+-----------
+N/A
+The Matrix Resurrections
+Sci-fi/Action
+2021
+
+Eternals
+-----------
+6.8
+Eternals
+Adventure/Action
+2021
+
+Dune
+-----------
+8.2
+Dune
+Sci-fi/Adventure
+2021
+
+1917
+-----------
+8.3
+1917
+War/Drama
+2019
+
+Shang-Chi
+-----------
+7.6
+Shang-Chi and The Legend of The Ten Rings
+Action/Fantasy
+2021
+
+Casino Royale
+-----------
+8.0
+Casino Royale
+Action/Adventure
+2006
+
+The Dark Knight
+-----------
+9.0
+The Dark Knight
+Action/Adventure
+2008
+
+Black Panther
+-----------
+7.3
+Black Panther
+Action/Adventure
+2018
+
+Venom
+-----------
+6.7
+Venom
+Action/Adventure
+2018
+
+Lord Of The Rings
+-----------
+8.9
+Lord Of The Rings: Return Of The King
+Fantasy/Adventure
+2003
+
+Saving Private Ryan
+-----------
+8.6
+Saving Private Ryan
+War/Action
+1998
+
+Interstellar
+-----------
+8.6
+Interstellar
+Sci-fi/Adventure
+2014
+
+Gladiator
+-----------
+8.5
+Gladiator
+Action/Adventure
+2000
+
+Avengers
+-----------
+8.4
+Avengers: Endgame
+Action/Sci-fi
+2019
+
+Wonder Woman
+-----------
+5.4
+Wonder Woman 1984
+Action/Adventure
+2020
+
+Captain Marvel
+-----------
+6.8
+Captain Marvel
+Action/Sci-fi
+2019
+
+
+LOAD MORE
+
+
+
+Category section text
+=====================
+
+Category
+
+Action
+100
+
+Comedy
+50
+
+Thriller
+20
+
+Horror
+80
+
+Adventure
+100
+
+Animated
+50
+
+Crime
+20
+
+SCI-FI
+80
+
+
+
+Live section text
+=================
+
+Live Tv Shows
+
+LIVE
+305K viewers
+<ion-icon name="play-circle-outline"></ion-icon>
+
+Planet Earth II Season 1 - Islands
+
+1.7M viewers
+Game of Thrones Season 5 - Mother's Mercy
+
+468K viewers
+Vikings Season 4 - What Might Have Been
+
+
+
+
+Footer section text
+===================
+
+Movies & TV Shows, Online cinema, Movie database HTML Template.
+
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-tiktok"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
+
+CineFlix
+About us
+My profile
+Pricing plans
+Contacts
+
+Browse
+Live TV
+Live News
+Live Sports
+Streaming Library
+
+TV Shows
+Movies
+Kids
+Collections
+
+Help
+Account & Billing
+Plans & Pricing
+Supported devices
+Accessibility
+
+&copy; copyright 2021 CineFlix
+Privacy policy
+Terms and conditions
