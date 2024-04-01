@@ -67,6 +67,7 @@
 
         <!-- MAIN SECTION -->
         <main>
+            <!-- BANNER SECTION -->
             <section class="banner">
                 <div class="banner-card">
                     <img src="./assets//images/John-Wick-3.jpg" alt="" class="banner-img">
@@ -92,6 +93,41 @@
                     </div>
                 </div>
             </section>
+
+            <!-- MOVIES SECTION -->
+            <section class="movies">
+                <!-- FILTER BAR -->
+                <div class="filter-bar">
+                    <div class="filter-dropdowns">
+                        <select name="ganre" class="ganre">
+                            <option value="All genres">All genres</option>
+                            <option value="Action">Action</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Animal">Animal</option>
+                            <option value="Animation">Animation</option>
+                            <option value="Biography">Biography</option>
+                        </select>
+                        <select name="year" class="year">
+                            <option value="All the years">All the years</option>
+                            <option value="2022">2022</option>
+                            <option value="2020-2021">2020-2021</option>
+                            <option value="2010-2019">2010-2019</option>
+                            <option value="2000-2009">2000-2009</option>
+                            <option value="1980-1999">1980-1999</option>
+                        </select>
+                    </div>
+                    <div class="filter-radios">
+                        <input type="radio" name="grade" id="Featured" checked>
+                        <label for="Featured">Featured</label>
+                        <input type="radio" name="grade" id="Popular">
+                        <label for="Popular">Popular</label>
+                        <input type="radio" name="grade" id="Newest">
+                        <label for="Newest">Newest</label>
+                        <div class="checked-radio-bg"></div>
+                    </div>
+                </div>
+            </section>
+
         </main>
     </div>
 
