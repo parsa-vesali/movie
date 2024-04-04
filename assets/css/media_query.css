@@ -8,6 +8,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        overflow: hidden;
         z-index: 50;
     }
 
@@ -62,7 +63,7 @@
 
     nav {
         position: fixed;
-        top: 0;
+        top: -250px;
         left: 0;
         width: 100%;
         z-index: 100;
@@ -89,7 +90,7 @@
 
     .navbar-form {
         position: absolute;
-        top:100% ;
+        top: 100%;
         left: var(--px);
         right: var(--px);
         height: 100%;
@@ -102,15 +103,19 @@
     }
 
     .navbar-form.active {
-        top: 0;
+        top: 0%;
     }
 
     .navbar-form-search {
-        margin-right:  40px;
+        margin-right: 40px;
+    }
+
+    .navbar-form-btn {
+        right: 80px;
     }
 
     .navbar-form-close {
-        display: block ;
+        display: block;
         padding-top: 4px;
         opacity: 0.8;
     }
@@ -128,5 +133,105 @@
         display: block;
         margin-right: 100px;
         padding-top: 50px;
+    }
+
+    .banner {
+        margin-top: 100px;
+    }
+
+    .banner-card .card-title {
+        font-size: 3em;
+        color: var(--white);
+        text-shadow: 2px 0 px #0007;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-brand {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    }
+}
+
+
+@media screen and (max-width : 1024px) {
+    :root {
+        --px: 60px;
+    }
+
+    .banner-card .card-content {
+        bottom: 40px;
+        left: 60px;
+        right: 60px;
+    }
+
+}
+
+
+@media screen and (max-width : 768px) {
+    :root {
+        --px: 40px;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .movies {
+        margin-top: 120px;
+    }
+
+    .filter-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filter-bar select {
+        margin-bottom: 20px;
+    }
+
+    .filter-radios {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width : 575px) {
+    :root {
+
+        --section-heading: 32px;
+        --fs-lg: 20px;
+        --px: 20px;
+    }
+
+    .navbar-search-btn {
+        margin-right: 20px;
+    }
+
+    .navbar-form-search {
+        margin-right: 20px;
+    }
+
+
+    .navbar-form-btn {
+        right: 500px;
+    }
+
+    .footer-copyright {
+        flex-direction: column-reverse;
+    }
+
+    .wrapper {
+        margin-bottom: 20px;
     }
 }
